@@ -1,0 +1,13 @@
+.weatherbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 0.24rem;
+  }
+  .temperature {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.16rem;
+  }

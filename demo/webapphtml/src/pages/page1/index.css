@@ -1,0 +1,45 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.body {
+  background: url('../../img/background.jpg') no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.cityname {
+  font-size: 0.24rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: white;
+  align-self: center;
+}
+.cityimg {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.citydiv {
+  width: auto;
+  height: 2.95rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cityimg1{
+  width: 50%;
+  height: auto;
+}
+.citycontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.1rem;
+}
